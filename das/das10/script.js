@@ -1,0 +1,14 @@
+alert('Hello');
+var a = 12;
+var b = 20;
+a = 44;
+alert(a+b);
+var arr = ['Yuri' , 'Margaryan' , 14];
+alert(arr[0]);
+alert(arr[1]);
+alert(arr[2]);
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+arr[4] = '195';
+console.log(arr);
