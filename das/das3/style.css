@@ -1,0 +1,16 @@
+.vernagir{
+    color:rgb(0, 138, 252);
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-transform: lowercase;
+    background-color:black;
+}
+h1 {
+    text-shadow: 2px 2px #ff0000;
+    text-align: center;
+  }
+text{
+    color:black;
+}

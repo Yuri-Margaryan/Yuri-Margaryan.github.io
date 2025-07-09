@@ -1,0 +1,16 @@
+.box{
+    background-color: white;
+    width:700px;
+    height: 650px;
+    border:2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+.product{
+    width:100%;
+}
