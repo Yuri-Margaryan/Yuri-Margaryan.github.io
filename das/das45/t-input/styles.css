@@ -1,0 +1,54 @@
+t-input {
+  display: inline-block;
+}
+
+.t-input-group {
+  width: 400px;
+}
+
+.t-input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.t-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+.t-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.t-input-suffix-container {
+  position: absolute;
+  right: 8px;
+}
+
+.t-input:focus {
+  border-color: #6366f1;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}
+
+.t-input::placeholder {
+  color: #a0aec0;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.t-input:focus::placeholder {
+  opacity: 0.5;
+}

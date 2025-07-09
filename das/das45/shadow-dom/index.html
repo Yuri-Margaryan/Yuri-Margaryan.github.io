@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shadow DOM</title>
+    <style>
+      * {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Element outside the ShadowDOM</p>
+    <t-shadow-dom></t-shadow-dom>
+
+    <template id="custom-template">
+      <style>
+        * {
+          color: red;
+        }
+      </style>
+      <p>My Template</p>
+      <div>
+        <p>Another Paragraph</p>
+      </div>
+    </template>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

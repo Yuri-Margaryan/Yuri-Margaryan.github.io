@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Custom Template With Slot</title>
+  </head>
+  <body>
+    <t-custom-template-and-slot>
+      <p slot="custom-paragraph">Name</p>
+    </t-custom-template-and-slot>
+
+    <template id="custom-template">
+      <slot name="custom-paragraph">
+        <p>Default Slot</p>
+      </slot>
+      <div>
+        <p>Another Paragraph</p>
+      </div>
+    </template>
+    <script src="./script.js"></script>
+  </body>
+</html>

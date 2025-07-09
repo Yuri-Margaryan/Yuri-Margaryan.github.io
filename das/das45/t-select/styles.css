@@ -1,0 +1,23 @@
+t-select {
+  display: inline-block;
+}
+
+.select-options-container {
+  width: 100%;
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.select-option-item {
+  cursor: pointer;
+  transition: all .1s ease-in;
+  padding: 5px 10px;
+}
+
+.select-option-item:hover {
+  background-color: #f3f3f3;
+}
