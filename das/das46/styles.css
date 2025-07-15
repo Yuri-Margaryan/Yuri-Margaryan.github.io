@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 132PX;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1062px;
+    margin: auto;
+}
+
+.info-title {
+    font-size: 171px;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+
+.info-paragraph {
+    text-align: center;
+    font-size: 25px;
+   margin-bottom: 58px;
+}
+
+.info-radius {
+    color:  white;
+    background-color:#2476F7;
+    border-radius:  535px;
+    padding: 18px 36px;
+    border: none;
+    font-size: 26px;
+}
+
+.header-info{
+    color: #000000 ;
+    background-color:#FFFFFF;
+    border-radius:  535px;
+    padding: 18px 36px;
+    margin-left: 12px;
+    font-size: 26px;
+    border: 2px solid #000000;
+}
+
+.headphone-image {
+    margin-top: 150px;
+    margin-bottom: 322px;
+    display: flex;
+    justify-content: end;
+}
+
+.good-images.png {
+ display: flex;
+ justify-content: end;
+ margin-top: 100px;
+ margin-bottom: 132PX;
+}
+
+
+
+.good-info.png{
+margin-top: 26px;
+margin-right: 440px;
+}
+
+.images-row {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.second-row {
+    margin-top: 42px;
+}
+
+.image-with-radius {
+    border-radius: 54px;
+}
